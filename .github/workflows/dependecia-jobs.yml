@@ -35,9 +35,9 @@ jobs:
     - name: Passo ...
       run: echo "Passo ..."
 
- job3:
+  job3:
     name: Job 3
-    needs: job1
+    needs: job2
     runs-on: ubuntu-latest
     
     steps:
